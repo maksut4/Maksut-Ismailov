@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  .home__first-text, .home__second-text, .home__third-text {
+    font-size: 30px;
+  }
+}
