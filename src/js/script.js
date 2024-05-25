@@ -8,17 +8,9 @@ menu_button.addEventListener("click", (event) => {
   menu_button.classList.toggle("header__menu-buttonActive");
 });
 
-// const lang_btn = document.querySelector(".header__lang-button");
-
-// lang_btn.addEventListener("click", (event) => {
-//     event.stopPropagation();
-//     lang_btn.classList.toggle("header__lang-buttonActive");
-// });
-
 document.body.addEventListener("click", () => {
   nav_menu.classList.remove("header__menu-active");
   menu_button.classList.remove("header__menu-buttonActive");
-  lang_btn.classList.remove("header__lang-buttonActive");
 });
 
 const btn = document.getElementById("button");
