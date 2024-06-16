@@ -1,4 +1,7 @@
 document.querySelector(".header__logo-title").textContent = "< Maksut.Dev />";
+document.addEventListener('copy', function(e) {
+  e.preventDefault();
+});
 
 const menu_button = document.querySelector(".header__menu-button");
 const nav_menu = document.querySelector(".header__nav-menu");
